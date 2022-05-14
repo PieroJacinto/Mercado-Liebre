@@ -1,0 +1,20 @@
+@media(min-width: 992px) {
+    .product {
+        width: 25%;
+        box-shadow: none;
+    }
+    .desk-3 {
+        width: 33%;
+        font-size: 16px;
+    }
+    .desk-foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+     .header-navbar ul li a{
+        font-size: 16px;
+    }
+      
+}

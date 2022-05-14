@@ -1,0 +1,144 @@
+/* ============================================== */
+/* FONTS SIZES ALIGN AND COLORS */
+/* ============================================== */
+
+.text-center {
+  text-align: center;
+}
+
+.font-heading {
+  font-size: 24px;
+}
+
+.font-large {
+  font-size: 18px;
+}
+
+.font-medium {
+  font-size: 16px;
+}
+
+.font-yellow {
+  color: #eac926;
+}
+.bg-yellow {
+  background-color: #eac926;
+}
+
+.font-blue {
+  color: #03264c;
+}
+.bg-blue {
+  background-color: #03264c;
+}
+
+.font-light-blue {
+  color: #1259c3;
+}
+.bg-light-blue {
+  background-color: #1259c3;
+}
+
+.font-dark-grey {
+  color: #666;
+}
+.bg-dark-grey {
+  background-color: #666;
+}
+
+.font-light-grey {
+  color: #ebebeb;
+}
+.bg-light-grey {
+  background-color: #ebebeb;
+}
+.border-light-grey {
+  border-color: #ebebeb;
+}
+
+.font-green {
+  color: #39b54a;
+}
+.bg-green {
+  background-color: #39b54a;
+}
+
+.font-white {
+  color: white;
+}
+.bg-white {
+  background-color: white;
+}
+
+/*------- FLEXBOX---------*/
+.flex {
+  display: flex;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.f-gr-50 {
+  flex-grow: 0.5;
+}
+
+
+/*---------SPACING---------*/
+.mr-8{
+  margin-right: 8px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-8 {
+  padding: 8px;
+}
+
+.p-6 {
+  padding: 6px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mt-8 {
+  margin-top: 8px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.m-auto {
+    margin: 0 auto;
+}
+
+
+/*------------POSITION-------------*/
+
+.relative {
+    position: relative;
+}
+
+
+
+
