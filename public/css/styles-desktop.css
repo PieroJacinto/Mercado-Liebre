@@ -16,5 +16,24 @@
      .header-navbar ul li a{
         font-size: 16px;
     }
-      
+    .product-name {
+        display:none;
+    }
+    .product :hover .product-name{
+        display: block;
+    }
+    .product :hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);;
+    }
+   
+    .truck-logo {
+        transition: position 1s;
+    }
+    
+    .truck-logo :hover {
+        transform: rotate(35deg);
+        transition: 1s;
+    }
 }
+    
+      
