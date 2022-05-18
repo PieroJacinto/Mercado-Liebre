@@ -21,19 +21,23 @@
     }
     .product :hover .product-name{
         display: block;
-    }
-    .product :hover {
+    }  
+    .product:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);;
     }
    
-    .truck-logo {
-        transition: position 1s;
+    .truck-logo:hover {
+    transform: rotateZ(-90deg);
     }
-    
-    .truck-logo :hover {
-        transform: rotate(35deg);
-        transition: 1s;
+    .register-form-button:hover{
+        background-color: #0022AA;
+
     }
+    .footer-icons:hover{
+        color: #eac926;
+    }
+
+   
 }
     
       

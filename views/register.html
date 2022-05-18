@@ -55,44 +55,44 @@
         </div>
     </header>
 
-     <main class="bg-light-grey ">
+    <main class="bg-light-grey">
             
         <form action="/" method="GET" class="create-form form-tab">
 
             <div class="control-formulario">
                 <label></label>
-                <input type="text" name="nombre" placeholder="Nombre y apellido" class="control font-medium">
+                <input type="text" name="nombre" placeholder="Nombre y apellido" class="control font-medium mb-1p">
             </div>
 
             <div class="control-formulario">
                 <label></label>
-                <input type="text" name="nombreUsuario" placeholder="Nombre de usuario" class="control font-medium">
+                <input type="text" name="nombreUsuario" placeholder="Nombre de usuario" class="mb-1p control font-medium">
             </div>
 
             <div class="control-formulario">
                 <label></label>
-                <input type="email" name="email" placeholder="E-mail" class="control font-medium">
+                <input type="email" name="email" placeholder="E-mail" class="mb-1p control font-medium">
             </div>
 
             <div class="control-formulario">
-                <label class=" font-large"><h4 class="mb-10">Fecha de Nacimiento</h4></label>
-                <input type="date" name="fechaNacimiento" placeholder="mm/dd/yyyy" class="control font-medium">
+                <label class=" font-large"><h4 class="mb-2p">Fecha de Nacimiento</h4></label>
+                <input type="date" name="fechaNacimiento" placeholder="mm/dd/yyyy" class="mb-1p control font-medium">
             </div>
 
             <div class="control-formulario">
                 <label></label>
-                <input type="text" name="domicilio" placeholder="Domicilio" class="control font-medium">
+                <input type="text" name="domicilio" placeholder="Domicilio" class="mb-1p control font-medium">
             </div>
 
             <div class="control-formulario font-medium">
-                <label> <h4  class="mb-10 font-large">Perfil del usuario</h4></label>
+                <label> <h4  class="mb-2p font-large">Perfil del usuario</h4></label>
             
                 <div class="control-formulario flex">
                     <input 
                     type="radio" 
                     name="perfilDeUsuario" 
                     value="comprador" 
-                    id="perfilDeUsuario_comprador" class="mr-8">
+                    id="perfilDeUsuario_comprador" class="mr-8 ">
                     
                     <label for="perfilDeUsuario_comprador" class="w-50">Comprador</label>
                 
@@ -108,7 +108,7 @@
 
             <div class="control-formulario font-medium">
 
-                <label for="intereses"><h4 class="font-large mb-10">Intereses</h4></label>
+                <label for="intereses"><h4 class="font-large mb-2p">Intereses</h4></label>
                 <div class="flex">
                     <input type="checkbox" name=intereses" value="Electro" id="intereses_electro" class="mr-8">
                     <label for="intereses_electro"> Electro</label>  
@@ -137,24 +137,25 @@
             </div>
 
             <div class="control-formulario">
-                <label for=""><h4 class="font-large mb-10">Foto de Usuario</h4></label>
-                <input type="file" name="Foto" accept="">
+                <label for=""><h4 class="font-large mb-2p">Foto de Usuario</h4></label>
+                <input type="file" name="Foto" class="mb-1p">
             </div>
-                <label for="contraseña"><h4 class="font-large mb-10">Contraseña</h4></label>
-                <input type="password" name="clave" id="contraseña" class="control margin-b">
-            </div>
-            <div>
-                <label for="confirmar_contraseña"><h4 class="font-large mb-10">Confirmar contraseña</h4></label>
-                <input type="password" name="clave" id="confirmar_contraseña" class="control margin-b">
+                <label for="contraseña"><h4 class="font-large mb-2p">Contraseña</h4></label>
+                <input type="password" name="clave" id="contraseña" class="control mb-2p">
             </div>
             <div>
-                <button type="submit" class="register-form-button control margin-b">Enviar</button>
-                <button type="reset" class="register-form-button control"> Borrar</button>
+                <label for="confirmar_contraseña"><h4 class="font-large mb-2p">Confirmar contraseña</h4></label>
+                <input type="password" name="clave" id="confirmar_contraseña" class="control mb-2p">
+            </div>
+            <div>
+                <button type="submit" class="register-form-button control mb-1p">Enviar</button>
+                <button type="reset" class="register-form-button control mb-2p"> Borrar</button>
             </div>
             
         </form>
     
-     
+    </main>
+    
 
     <footer class=" bg-light-grey">
         <section class=" bg-white text-center m-auto p-10 desk-foot">
